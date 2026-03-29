@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to my Poem Collages</title>
+<style>
+    p { 
+      font-family: Arial, Helvetica, sans-serif; 
+}
+body {background-color: #403075; color: white;}	
+h2 {color: white; margin-left: 20px;}
+    h3{
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    background-color: #9B344E;
+    padding: 10px;   
+    border-radius: 25px;}
+</style>
+<h3>Poem Collages I've made 2024-2026</h3>
+<p>Below are a few examples of poetry collages I have created from 2024-2026. Since 2019 I have sourced material from fashion magazines, recipes, bank statements, and miscellaneous ephemera I've picked up from nature walks. I cut snippets from interview and short phrases from film and book reviews, too. 
+I incorporate different elements: dried flowers, dye extracted from avocado pits, and paper infused with essential oils. Melding storytelling with humor and the uncanny, the autobiographical and the mundance these poem collages, for me, are forms of play and meditation.</p>  
+<br>
+<p>You can reach Katie at blahblah@genericmail</p>
+<table>
+  <tr><td><img src="./images/story.jpg"  width="300" height="400" alt="collaged image of magazine cutouts"></td><td><img src="./images/aheadyblendof.jpg"  width="300" height="400" alt="poem about a gathering of friends"></td></tr>
+  <tr><td><img src="./images/bathtub.jpg"  width="300" height="400" alt="collage of a bathtub"></td><td><img src="./images/MarieKondo.jpg"  width="300" height="400" alt="poem about Marie Kondo and romance"></td></tr>
+</table>
+
+
+
+<a class="ga-bottom">Copyright 2026</a> by Katie Iwagami. All Rights Reserved.    
+</body>
+</html>   
