@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Welcome to my Poem Collages</title>
+</head>
 <style>
     p { 
       font-family: Arial, Helvetica, sans-serif; 
