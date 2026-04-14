@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <script>
-    async function onClickSubmit(){
-      var location = document.getElementById("location").value;
-      var url = `https://random.dog/woof.json'
-      var response = await fetch(url);
-      var jsonData = await response.json();
-      document.getElementById("canine").innerhtml = jsonData["url"];
-   </script>
+<head>
+    <title>Bring up a Dog Image</title>
+</head>
 <body>
+      <h2>I'm bored! Let's look at random dog pictures!</h2>
+      <button id="fetchDog" onclick="fetchDogImage()">Fetch Dog!</button>
+      <div id="dogImage"></div>
 
-<h1>Dog</h1>
-<button type="button" id="submit" onclick="onClickSubmit()">submit</button>
+  <script>
+    async function fetchDogImage() {
+      var response = await fetch('https://random.dog/woof.json');
+      var data = await response.json();
+      var imageUrl = data.url;
+      document.getElementById('dogImage').innerHTML = `<img src="${imageUrl}" alt="Random Dog">`;
+    }
+  </script>
 
-<p id="Dog"></p>
 </body>
 </html>
